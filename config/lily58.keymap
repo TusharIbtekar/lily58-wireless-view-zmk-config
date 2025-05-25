@@ -17,18 +17,6 @@
         zmk,status-screen = &status_screen;
     };
 
-    // Add custom widget configuration
-    widgets {
-        compatible = "zmk,widgets";
-        status_screen: status_screen {
-            compatible = "zmk,status-screen";
-            label = "STATUS_SCREEN";
-            position = <0>;
-            height = <32>;
-            width = <128>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
