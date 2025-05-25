@@ -1,0 +1,58 @@
+/*
+ * Copyright (c) 2024 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/ {
+    widgets {
+        compatible = "zmk,widgets";
+        status_screen: status_screen {
+            compatible = "zmk,status-screen";
+            label = "STATUS_SCREEN";
+            position = <0>;
+            height = <32>;
+            width = <128>;
+
+            widgets {
+                // Top row - Layer and Connection
+                layer_status {
+                    position = <0>;
+                    height = <8>;
+                    width = <64>;
+                    label = "LAYER";
+                    format = "Layer: %s";
+                    font = "small";
+                };
+
+                output_status {
+                    position = <64>;
+                    height = <8>;
+                    width = <64>;
+                    label = "OUTPUT";
+                    format = "%s";
+                    font = "small";
+                };
+
+                // Middle row - Battery and WPM
+                battery_status {
+                    position = <8>;
+                    height = <8>;
+                    width = <64>;
+                    label = "BAT";
+                    format = "Battery: %d%%";
+                    font = "small";
+                };
+
+                wpm_status {
+                    position = <72>;
+                    height = <8>;
+                    width = <56>;
+                    label = "WPM";
+                    format = "WPM: %d";
+                    font = "small";
+                };
+            };
+        };
+    };
+}; 
