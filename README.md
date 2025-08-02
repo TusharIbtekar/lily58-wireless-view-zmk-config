@@ -1,1 +1,1 @@
-<img width="984" height="1173" alt="my_keymap" src="https://github.com/user-attachments/assets/dcbb83f7-8d6e-449b-b2a1-a6e6ece6c774" />
+<img width="1000" height="1173" alt="my_keymap" src="https://github.com/user-attachments/assets/da9c1133-a071-4ab9-98ce-45db5b700cee" />
