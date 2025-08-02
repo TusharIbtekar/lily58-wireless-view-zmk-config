@@ -1,1 +1,1 @@
-![my_keymap](https://github.com/user-attachments/assets/e85632b6-9302-4437-9537-1b1ee5a5dca0)
+<img width="984" height="1173" alt="my_keymap" src="https://github.com/user-attachments/assets/dcbb83f7-8d6e-449b-b2a1-a6e6ece6c774" />
